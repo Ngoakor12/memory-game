@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  margin: 50px 0 5px 0;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 13px;
+}
+
+button {
+  font-family: "Roboto";
+  font-size: 13px;
+  font-weight: 700;
+  background-color: white;
+  border: none;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+button:hover {
+  cursor: pointer;
+  outline: 1px solid black;
+}
+
+body {
+  font-family: "Roboto";
+  display: flex;
+  justify-content: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.grid {
+  width: 215px;
+  height: 215px;
+  position: relative;
+  overflow: hidden;
+  margin: 5px 0;
+}
+.card {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(22, 22, 22);
+  border: 0.5px solid rgb(22, 22, 22);
+  display: inline-block;
+}
+.card:hover {
+  background-color: aquamarine;
+  cursor: pointer;
+}
+.flipped {
+  background: none;
+  display: block;
+}
+
+/* Modal */
+
+.modal {
+  position: fixed;
+  top: 50;
+  left: 50;
+  width: 215px;
+  height: 215px;
+  background-color: aquamarine;
+  overflow: hidden;
+  text-align: center;
+  z-index: 1;
+  padding: 10px;
+}
+.modalPrompt {
+  margin-bottom: 20px;
+}
+
+.fourByFour,
+.threeByTwo,
+.twoByTwo {
+  display: block;
+  padding: 5px 20px;
+  margin: 3px auto;
+}
+
+.threeByTwoCard {
+  width: 69px;
+  height: 69px;
+}
+.threeByTwoCard * {
+  margin: 5px auto 0 auto;
+}
+
+.twoByTwoCard {
+  width: 105px;
+  height: 105px;
+}
+.twoByTwoCard * {
+  margin: 20px auto 0 auto;
+}
+
+/* Modal end */
+.end {
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+}
+.playAgain {
+  display: block;
+  padding: 5px 20px;
+  margin: 10px auto;
+}
+
+.statsStart {
+  display: flex;
+  justify-content: space-between;
+}

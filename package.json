@@ -1,0 +1,24 @@
+{
+  "name": "Ngoako-Ramokgopa-222-memory-game-in-vanilla-js-javascript",
+  "version": "1.0.0",
+  "description": "Memory game web app (222)\r For raw project instructions see: http://syllabus.africacode.net/projects/memory-game/part-1/",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Umuzi-org/Ngoako-Ramokgopa-222-memory-game-in-vanilla-js-javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Umuzi-org/Ngoako-Ramokgopa-222-memory-game-in-vanilla-js-javascript/issues"
+  },
+  "homepage": "https://github.com/Umuzi-org/Ngoako-Ramokgopa-222-memory-game-in-vanilla-js-javascript#readme",
+  "devDependencies": {
+    "jasmine": "^3.8.0",
+    "jsdom": "^16.6.0"
+  }
+}

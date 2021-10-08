@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Memory Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="heading">Memory Game</h1>
+      <!-- stats -->
+      <div class="statsStart">
+        <p class="timer">
+          Timer: <span class="minutes-optional">0</span
+          ><span class="minutes">0</span>:<span class="seconds-optional">0</span
+          ><span class="seconds">0</span>
+        </p>
+        <p class="cardFlips">
+          Card flips: <span class="numberOfFlips">0</span>
+        </p>
+      </div>
+
+      <div class="grid">
+        <div class="modal start">
+          <h2 class="modalPrompt">Choose grid size to start game👇</h2>
+          <button class="fourByFour">4x4</button>
+          <button class="threeByTwo">3x2</button>
+          <button class="twoByTwo">2x2</button>
+        </div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="card"></div>
+        <div class="modal end">
+          <h2 class="modalPrompt">Congrats! You've Won!✨</h2>
+          <p class="timeTakenEnd">Time taken: <span class="time"></span></p>
+          <p class="cardFlipsEnd">
+            Card flips: <span class="numberOfFlipsEnd"></span>
+          </p>
+          <button class="playAgain">Play again</button>
+        </div>
+      </div>
+    </div>
+    <script src="./src/memory-game.js"></script>
+  </body>
+</html>
