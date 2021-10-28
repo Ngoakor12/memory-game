@@ -1,5 +1,5 @@
 {
-  "name": "Ngoako-Ramokgopa-222-memory-game-in-vanilla-js-javascript",
+  "name": "memory-game",
   "version": "1.0.0",
   "description": "Memory game web app (222)\r For raw project instructions see: http://syllabus.africacode.net/projects/memory-game/part-1/",
   "main": "index.js",

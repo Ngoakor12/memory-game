@@ -4,16 +4,7 @@ let currentMatches = 0;
 let winningMatches = 8;
 let flippedCards = [];
 const cards = [...document.getElementsByClassName("card")];
-const loadedImages = [
-  "after-effects.png",
-  "animate.png",
-  "illustrator.png",
-  "indesign.png",
-  "lightroom.png",
-  "photoshop.png",
-  "premier-pro.png",
-  "xd.png",
-];
+const loadedImages = themes["adobe"]["cardImages"];
 const cardImages = [...loadedImages, ...loadedImages];
 
 const gridModalStart = document.querySelector(".start");
@@ -94,8 +85,7 @@ function setGridSize(event) {
       cards[i].classList.add("threeByTwoCard");
     }
     winningMatches = 3;
-  }
-  if (gridSize == "2x2") {
+  } else if (gridSize == "2x2") {
     for (let i = 0; i < cards.length; i++) {
       cards[i].classList.add("twoByTwoCard");
     }
