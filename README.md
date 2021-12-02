@@ -6,7 +6,7 @@ A picture memorization game to keep your memory sharp. [Play here](https://www.n
 - timer
 - multiple grid size options
 
-## technology used
+## technologies used
 - HTML
 - CSS
 - Javascript
