@@ -143,7 +143,6 @@ function flipCard(event) {
 
   showCardImage(card, cardImage);
 
-  // increment flip count
   updateCardFlips();
 
   // prevent double clicks
