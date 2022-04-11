@@ -1,5 +1,5 @@
 # memory-game
-A picture matching game to keep your memory sharp. [Play here](https://www.ngoako.com/memory-game/)🕹
+A picture matching game to keep your memory sharp. [Play here](https://ngoakor12.github.io/memory-game/)🕹
 
 ## features
 - counting card flips
